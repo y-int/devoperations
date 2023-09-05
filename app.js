@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Simple Express HTML</title>
+            <title>DevOps testing webpage</title>
         </head>
         <body>
             <h1>Welcome to my Express App</h1>
@@ -21,4 +21,5 @@ app.get('/', (req, res) => {
 
 app.listen(PORT, () => {
     console.log(`Server is running at http://localhost:${PORT}`);
+    console.log(2+2+2+2+2+2);
 });
